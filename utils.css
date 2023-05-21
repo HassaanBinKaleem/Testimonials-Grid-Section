@@ -1,0 +1,41 @@
+.items {
+  padding: 0.5vw;
+  border-radius: 1vw;
+  box-shadow: 1vw 1vh 1vw var(--Light-gray);
+}
+
+.name {
+  display: flex;
+  margin: 2vh 0vw 0vh 2vw;
+}
+
+.image {
+  border-radius: 3vw;
+  border: 1px solid var(--White);
+  width: 3vw;
+  height: 6.5vh;
+  margin: 0vh 2vw 0vh 0vw;
+}
+
+.name-person {
+  font-size: 1vw;
+}
+
+.verified {
+  opacity: 0.5;
+}
+
+.content {
+  margin: 2vh 1vw 0vh 2vw;
+}
+
+.remarks {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.statement {
+  opacity: 0.5;
+  font-size: 1vw;
+  padding: 1.7vh 0vw 0vh 0vw;
+}

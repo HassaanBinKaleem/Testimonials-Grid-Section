@@ -1,0 +1,62 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: var(--Light-grayish-blue);
+  }
+
+  .container {
+    grid-template-areas:
+      "item1 item1 item1"
+      "item2 item2 item2"
+      "item3 item3 item3"
+      "item4 item4 item4"
+      "item5 item5 item5";
+    gap: 4vw;
+    margin: 2vh 0vw;
+  }
+
+  .items {
+    width: 85vw;
+  }
+
+  .item1 {
+    height: 48vh;
+  }
+
+  .item2 {
+    height: 26vh;
+  }
+
+  .item3 {
+    height: 44vh;
+  }
+
+  .item4 {
+    height: 25vh;
+  }
+
+  .item5 {
+    height: 43vh;
+  }
+
+  .image {
+    width: 7vw;
+    height: 4vh;
+  }
+
+  .name-person {
+    font-size: 2.5vw;
+  }
+
+  .verified {
+    font-size: 2vw;
+  }
+
+  .remarks {
+    font-size: 5vw;
+  }
+
+  .statement {
+    font-size: 2.9vw;
+  }
+}
